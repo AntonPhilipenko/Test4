@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Completor.Core.Tools
 {
+    /// <summary>
+    /// Read file contents
+    /// </summary>
     public class FileProcessor
     {
         public string[] ReadAllLines(string path)

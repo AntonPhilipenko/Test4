@@ -7,6 +7,10 @@ using Completor.Core.Entities;
 
 namespace Completor.Core
 {
+    /// <summary>
+    /// Wrapper
+    /// Takes WordSet into ctr
+    /// </summary>
     public class TreeWrapper
     {
         private Tree WordTree { get; set; }

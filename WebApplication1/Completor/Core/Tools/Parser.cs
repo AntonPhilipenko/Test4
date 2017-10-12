@@ -5,8 +5,16 @@ using Completor.Core.Entities;
 
 namespace Completor.Core.Tools
 {
+    /// <summary>
+    /// Parse file contents
+    /// </summary>
     public class Parser
     {
+        /// <summary>
+        /// Returns instance or WordSet - initial data for complete
+        /// </summary>
+        /// <param name="text">File contents.</param>
+        /// <returns></returns>
         public WordSet Parse(string[] text)
         {
             if (text.Length == 0)

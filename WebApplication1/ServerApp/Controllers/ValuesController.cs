@@ -11,6 +11,12 @@ namespace ServerApp.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        /// <summary>
+        /// Use this method
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+
         // GET api/values/line/str
         [Route("line/{value}")]
         [HttpGet]

@@ -11,6 +11,10 @@ namespace ServerApp
 {
     public class Program
     {
+        /// <summary>
+        /// Superclass of the layer
+        /// Ctr with parameters is used in Strtup.cs
+        /// </summary>
         public static RequestProcessor Processor { get; set; }
 
         public static void Main(string[] args)

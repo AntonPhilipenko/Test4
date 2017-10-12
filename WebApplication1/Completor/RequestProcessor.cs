@@ -9,6 +9,9 @@ using Completor.Core.Trees;
 
 namespace Completor
 {
+    /// <summary>
+    /// Superclass of the layer
+    /// </summary>
     public class RequestProcessor
     {
         private readonly FileProcessor fileProcessor = new FileProcessor();
@@ -18,6 +21,10 @@ namespace Completor
 
         private TreeWrapper wrapper;
 
+        /// <summary>
+        /// Ctr
+        /// </summary>
+        /// <param name="path">Init filename</param>
         public RequestProcessor(string path)
         {
             filePath = path;
@@ -34,13 +41,24 @@ namespace Completor
             }
         }
 
+        /// <summary>
+        /// Init from file and build tree
+        /// </summary>
         private void Init()
         {
+            // Read
             string[] content = fileProcessor.ReadAllLines(filePath);
+            // Parse
             WordSet wordSet = parser.Parse(content);
+            // Build tree
             wrapper = new TreeWrapper(wordSet);
         }
 
+        /// <summary>
+        /// Return completions if init succeeded
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
         public async Task<string[]> Response(string request)
         {
             return initSucceeded

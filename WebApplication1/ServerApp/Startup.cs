@@ -51,6 +51,7 @@ namespace ServerApp
 
             app.UseMvc();
 
+            // Superclass of the layer init
             string path = Configuration.GetSection("AppSettings").GetValue<string>("Path");
             Program.Processor = new RequestProcessor(path);
         }
