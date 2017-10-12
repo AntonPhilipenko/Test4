@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript">
+        function getRequest(request, response, lbl) {
+            $.ajax({
+                url: 'http://localhost:5678/api/values/line/' + request.term,
+                type: 'GET',
+                dataType: 'json',
+                contentType: 'application/json;charset=utf-8',
+                success: function (resp) {
+                    response(resp);
+                },
+                failure: function (resp) {
+                    alert('failure');
+                    alert(resp);
+                    alert(resp.responseText);
+                },
+                error: function (resp) {
+                    alert('error');
+                    alert(resp);
+                    alert(resp.responseText);
+                }
+            });
+        };
+
+        $(function () {
+            $("#textEditLine").autocomplete({
+                source: function (request, response) {
+                    getRequest(request, response, $("#lblResponseTimeLine"));
+                },
+                minLength: 1
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <input id="textEditLine" onchange="" style="width: 30%" />
+        <label id="lblResponseTimeLine" for="textEditLine" class="text-info" style="font-size: 8pt"></label>
+    </div>
+</body>
+</html>
