@@ -9775,9 +9775,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Temp\\Test4\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-      "projectName": "WebApplication1",
-      "projectPath": "D:\\Temp\\Test4\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "D:\\Temp\\Test4\\WebApplication1\\WebApplication1\\AutoCompleteClient.csproj",
+      "projectName": "AutoCompleteClient",
+      "projectPath": "D:\\Temp\\Test4\\WebApplication1\\WebApplication1\\AutoCompleteClient.csproj",
       "outputPath": "D:\\Temp\\Test4\\WebApplication1\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [

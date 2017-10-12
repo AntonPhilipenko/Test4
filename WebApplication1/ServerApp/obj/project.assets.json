@@ -3595,7 +3595,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Completor/1.0.0": {
+      "AutoCompletor/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v1.1",
         "dependencies": {
@@ -9654,15 +9654,15 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Completor/1.0.0": {
+    "AutoCompletor/1.0.0": {
       "type": "project",
-      "path": "../Completor/Completor.csproj",
-      "msbuildProject": "../Completor/Completor.csproj"
+      "path": "../Completor/AutoCompletor.csproj",
+      "msbuildProject": "../Completor/AutoCompletor.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
-      "Completor >= 1.0.0",
+      "AutoCompletor >= 1.0.0",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.2",
       "Microsoft.AspNetCore.Mvc >= 1.1.3",
@@ -9676,9 +9676,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Temp\\Test4\\WebApplication1\\ServerApp\\ServerApp.csproj",
-      "projectName": "ServerApp",
-      "projectPath": "D:\\Temp\\Test4\\WebApplication1\\ServerApp\\ServerApp.csproj",
+      "projectUniqueName": "D:\\Temp\\Test4\\WebApplication1\\ServerApp\\AutoCompleteServise.csproj",
+      "projectName": "AutoCompleteServise",
+      "projectPath": "D:\\Temp\\Test4\\WebApplication1\\ServerApp\\AutoCompleteServise.csproj",
       "outputPath": "D:\\Temp\\Test4\\WebApplication1\\ServerApp\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
@@ -9687,8 +9687,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "D:\\Temp\\Test4\\WebApplication1\\Completor\\Completor.csproj": {
-              "projectPath": "D:\\Temp\\Test4\\WebApplication1\\Completor\\Completor.csproj"
+            "D:\\Temp\\Test4\\WebApplication1\\Completor\\AutoCompletor.csproj": {
+              "projectPath": "D:\\Temp\\Test4\\WebApplication1\\Completor\\AutoCompletor.csproj"
             }
           }
         }

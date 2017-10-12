@@ -1,0 +1,7 @@
+D:\Temp\Test4\WebApplication1\Completor\bin\Debug\netcoreapp1.1\AutoCompletor.deps.json
+D:\Temp\Test4\WebApplication1\Completor\bin\Debug\netcoreapp1.1\AutoCompletor.dll
+D:\Temp\Test4\WebApplication1\Completor\bin\Debug\netcoreapp1.1\AutoCompletor.pdb
+D:\Temp\Test4\WebApplication1\Completor\obj\Debug\netcoreapp1.1\AutoCompletor.csprojResolveAssemblyReference.cache
+D:\Temp\Test4\WebApplication1\Completor\obj\Debug\netcoreapp1.1\AutoCompletor.AssemblyInfo.cs
+D:\Temp\Test4\WebApplication1\Completor\obj\Debug\netcoreapp1.1\AutoCompletor.dll
+D:\Temp\Test4\WebApplication1\Completor\obj\Debug\netcoreapp1.1\AutoCompletor.pdb

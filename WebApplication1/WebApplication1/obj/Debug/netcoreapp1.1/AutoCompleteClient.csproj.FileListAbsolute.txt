@@ -1,0 +1,9 @@
+D:\Temp\Test4\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\AutoCompleteClient.deps.json
+D:\Temp\Test4\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\AutoCompleteClient.runtimeconfig.json
+D:\Temp\Test4\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\AutoCompleteClient.runtimeconfig.dev.json
+D:\Temp\Test4\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\AutoCompleteClient.dll
+D:\Temp\Test4\WebApplication1\WebApplication1\bin\Debug\netcoreapp1.1\AutoCompleteClient.pdb
+D:\Temp\Test4\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\AutoCompleteClient.csprojResolveAssemblyReference.cache
+D:\Temp\Test4\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\AutoCompleteClient.AssemblyInfo.cs
+D:\Temp\Test4\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\AutoCompleteClient.dll
+D:\Temp\Test4\WebApplication1\WebApplication1\obj\Debug\netcoreapp1.1\AutoCompleteClient.pdb
